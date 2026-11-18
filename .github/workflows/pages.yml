@@ -1,16 +1,28 @@
-name: Deploy cello practice site
+name: Validate and deploy cello practice site
 on:
   push:
-    branches: [main]
-    paths: ['site*.zip', '.github/workflows/pages.yml']
+    branches: [main, maintenance/release-guard]
+    paths: ['site*.zip', 'release.json', 'scripts/**', '.github/workflows/pages.yml']
+  pull_request:
+    paths: ['site*.zip', 'release.json', 'scripts/**', '.github/workflows/pages.yml']
   workflow_dispatch:
 permissions:
   contents: read
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate exact release archive
+        run: python3 scripts/validate_site.py
+      - name: Test validation rejection cases
+        run: python3 scripts/test_validate_site.py
   deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: validate
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -21,12 +33,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
-      - name: Unpack static site
+      - name: Validate and unpack the only archive
         run: |
+          python3 scripts/validate_site.py
           mkdir -p _site
-          for archive in site*.zip; do unzip -q -o "$archive" -d _site; done
-          test -f _site/index.html
-          test -f _site/fullscore/index.html
+          unzip -q site.zip -d _site
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
