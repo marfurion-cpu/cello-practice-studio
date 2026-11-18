@@ -1,11 +1,16 @@
 {
   "schema_version": 1,
-  "version": "v35-release-guard-1",
-  "baseline_commit": "1f1c48d4852a904997a2e2e9c4bf79346595d028",
-  "archive_sha256": "3c17692e9d7a1fd5e267972b674a68839100be3a0d66feb5c88ce89102fc01fb",
-  "file_count": 293,
+  "version": "v35-manual-return-1",
+  "baseline_commit": "3fb6b50d9efeddc9ec50e4d5e10c63d88d7b9ac1",
+  "archive_sha256": "6d83094f5bc296224b00e2b19ce2b72d172dfb7c0c64a19f950bf2d437679e87",
+  "file_count": 294,
   "changes": [
-    "Deployment guard only; site.zip unchanged"
+    "Manual same-suite II to I button at final expanded measure; no autoplay; existing score header row; source scores unchanged"
+  ],
+  "verification": [
+    "42 module assertions passed",
+    "Independent six-suite UI and code review passed",
+    "Controlled slow-network and real mobile device unverified"
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -190,7 +195,7 @@
     "fullscore/data/suite6sarabande/source.xml": "4b669dd59c9c0cb7f07a6dfaf4d02b48a62e57c9ce7b0fbb6bd196d039a879a7",
     "fullscore/fingering.mjs": "c26677218af08c987115ec7eec5ac7902f8d57087149788698efc25de35c4bef",
     "fullscore/four-string-study.mjs": "68527902a0f763c5dd6b525f1c0113800d93fabd878b39e218cbccf722a83968",
-    "fullscore/full-app.mjs": "c1bf52a6e1d310a229724dce082b307aa7da68e5839d02bd77f73dc4d0f45383",
+    "fullscore/full-app.mjs": "afeeed47d02b612c3d7edcb1004e5cae690857c757e7e0459b87ea8867496d62",
     "fullscore/grace-identity.mjs": "a65f3d70823464265fe4f5c250a46622e41a0d24184ac4a46322e5b94ab406b6",
     "fullscore/handframe.mjs": "2a40a562f794df37a7c7ccd6990704a2ae911502692df314a1af26b837b2a18f",
     "fullscore/index.html": "ab23ece71b38f83f1d848b96ab19895268884f73bed510d84ad024fc78945834",
@@ -300,6 +305,7 @@
     "suite5-reader/index.html": "386c169bfacd1c67f5ae5725cc4831970e5a667ad4258dcdb26d95b90e5b87da",
     "suite5-reader/manifest.json": "d1423c46c31563ff5590019f803fb53f78efc153f59079d1197ed02defb2aee6",
     "suite5-reader/reader.mjs": "fd2164a1ef143683c1c31d930a917b547e324efe1eab4a22de3b348ce5e6a97d",
-    "suite5-reader/vendor/opensheetmusicdisplay-2.3.0.min.js": "20cf7cd331637af5ef5786cfdfb67e106a181ba5c6a5c4c86adee4b96a7c6639"
+    "suite5-reader/vendor/opensheetmusicdisplay-2.3.0.min.js": "20cf7cd331637af5ef5786cfdfb67e106a181ba5c6a5c4c86adee4b96a7c6639",
+    "fullscore/manual-return.mjs": "c8380c43b0873e6245ab400586aacade73228c92555b26395b7ef693b11f4349"
   }
 }
