@@ -1,2 +1,27 @@
-# cello-practice-studio
-大提琴看谱与把位练习工具 / Cello score and fingerboard practice. Free non-commercial learning project.
+# 大提琴练习站
+
+面向手机的非商业学习工具：五线谱、四弦音高/把位图、小节选择、速度调整与合成试听。无需 ChatGPT 登录。
+
+## 网站源码与部署
+
+`site.zip` 是可解压检查的静态网站源码与资源包，不含账号凭据或私人站历史。GitHub Actions 解压该包后发布 GitHub Pages，不在访问时调用 ChatGPT API。
+
+更新时修改包内 HTML / CSS / JavaScript / MusicXML，再替换 `site.zip`；发布流程仅需要本仓库的 Pages 部署权限。
+
+## 已知边界
+
+- 高把位落点不等于教师审定指法；部分弓法、力度与表情仍待核对。
+- 部分舞曲 II→I 回返、Coda 与跨乐章连续演奏未完整实现。
+- 合成试听不是大师录音，不能替代实际教学。
+- 中国大陆微信连通与真实手机音频尚需当地真机测试。
+
+## 许可与来源
+
+本项目不是所有素材统一 MIT 或全部公有领域。包内 `THIRD_PARTY_NOTICES.md`、各数据目录归属说明和 vendor 许可文件按素材分别适用。
+
+- 第五组曲数据来自 DCMLab/bach_solo，按 CC BY-NC-SA 4.0 保留署名、非商业与相同方式共享条件。
+- 练声曲使用 Shin-itchiro Yokoyama 制谱，保留 CC BY 3.0 署名及 OMR / 校订说明。
+- 其他巴赫数据保留上游来源与声明，不把上传者声明表述为独立版权保证。
+- 第三方代码、字体遵循各自许可证。
+
+请勿将这些非商业谱源直接用于商业产品。
