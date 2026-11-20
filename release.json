@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "version": "v36-catalog-fingerboard-piatti",
-  "baseline_commit": "e2cf7aa570eaeaf52f9c3bf8c3a6cb0af0943ee5",
-  "archive_sha256": "436185419c9c5aa284d212e58d794ec23cf9efd7e31644294d245ec855d46d79",
+  "version": "v37-catalog-cleanup",
+  "baseline_commit": "1bd54ecf6339af71965787ff5ecbb8204d5c30c5",
+  "archive_sha256": "73368323ee82e4d8cb83e9970a1a9923b86d7cc67d62326ce79e1f860df1424c",
   "file_count": 295,
   "changes": [
-    "Use official Suite 1 Prelude as default; remove its duplicate early catalog entry. Default Suite 6 Prelude board highlights only current sounding pitch(es). Add Piatti Op. 25 public-domain sheet-music collection, PDF reading only."
+    "Remove the legacy standalone BWV1008 Prelude from the active catalog; keep all seven official Suite 2 entries. Retire the PDF-only Piatti entry while interactive transcription is under review."
   ],
   "verification": [
-    "All 104 Suite 6 Prelude measures validated against unchanged score and audio plan; 4 exact release paths differ."
+    "Only three release paths changed; existing score/audio files and attribution retained."
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -193,17 +193,17 @@
     "fullscore/data/suite6sarabande/source.xml": "4b669dd59c9c0cb7f07a6dfaf4d02b48a62e57c9ce7b0fbb6bd196d039a879a7",
     "fullscore/fingering.mjs": "c26677218af08c987115ec7eec5ac7902f8d57087149788698efc25de35c4bef",
     "fullscore/four-string-study.mjs": "0de73302716acd460dff099f7b1a935f9ebeac94bd8f5143cf7c6868ddcc0557",
-    "fullscore/full-app.mjs": "a7dee84a89a2ae87a69ab284c881b45ac5ef43b8b3ef131ec26028bdfa82fc80",
+    "fullscore/full-app.mjs": "977199ddd585d3e22f00abf8900f05a88af3c882898ba9bb2f76312eb781ad81",
     "fullscore/grace-identity.mjs": "a65f3d70823464265fe4f5c250a46622e41a0d24184ac4a46322e5b94ab406b6",
     "fullscore/handframe.mjs": "2a40a562f794df37a7c7ccd6990704a2ae911502692df314a1af26b837b2a18f",
-    "fullscore/index.html": "1edbad0f2d74ab7edc2e50e3436b5361a02055c9c5c7d5c7e4927a19fa2ca7a7",
+    "fullscore/index.html": "61c5f5fcd63b038186db386e0fc3c7214d7763852e2c3cb78bd8c062692bffc8",
     "fullscore/ktv-renderer.mjs": "a5a33b73a0f5d54d760b790b2c1002285982893c2e1620be1c0d07c7931c0d54",
     "fullscore/ktv.css": "dfaeeb2276266ad41f0c1c1f2f6591b6ce2e42808d1d831c695796903b103f5e",
     "fullscore/manual-return.mjs": "c8380c43b0873e6245ab400586aacade73228c92555b26395b7ef693b11f4349",
     "fullscore/measure-navigation.mjs": "252c5bda45ecd258c961bffcb6af3c225bcd3fa72d9b1be950431332fa6d0ae3",
     "fullscore/musicxml-events.mjs": "e12417d46bb00bb81a3086440c7d5f0c75ea55645df76720bc58297e26ebb619",
     "fullscore/note-labels.mjs": "84282e20412901674dae89b2971ac7fec217ba59e3281f42e6c2aa71b92a9a40",
-    "fullscore/piatti/index.html": "cd0df322025c47baa5e355f1b1e9148d71e5432068ebbfe489a94c52412b47e8",
+    "fullscore/piatti/index.html": "9bbdb970054b806299a0fe0df7d37d73e74a62e1fc02e55b9d910d347f806b48",
     "fullscore/pinned-grace-parser.mjs": "ace5f6f5147056d1293de463f58d339437b3a482178267ee9178421881d0e509",
     "fullscore/polyphonic-audio.mjs": "e37422fb7e8da8b7167a65f68b54aae8983e812857055b6e28d562046289d067",
     "fullscore/score-lab/app.mjs": "b4a42e4bca0f52a424c980a2fcb9069f6950848b6c0462b0e50a0137d461aa16",
