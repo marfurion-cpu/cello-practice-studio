@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "version": "v38-public-piatti1-vocalise",
-  "baseline_commit": "1bd54ecf6339af71965787ff5ecbb8204d5c30c5",
-  "archive_sha256": "69fdfd3193406c9ddde13702d14316052ff07a4b06ca2e8b6a4494dc0534b6eb",
-  "file_count": 296,
+  "version": "v39-mendelssohn-op109-duet",
+  "baseline_commit": "748e473370a691d8e3c8b294a921f0564bf7e5af",
+  "archive_sha256": "6a25e74eea5d5616a241d388cecf58c912d9c35a3cb2273b3c1ee211b05e45ee",
+  "file_count": 306,
   "changes": [
-    "Remove the legacy standalone BWV1008 Prelude from the active catalog; keep all seven official Suite 2 entries. Replace the Piatti PDF-only entry with the first complete 77-bar attack practice edition from the public-domain Simrock engraving, p.2\u20133. Default Vocalise to main melody with rests, ties and repeats intact; optional decorated playback remains."
+    "Add Mendelssohn Op.109 practice using Peters 6960 public-domain scores: 67 measured bars, cello-only, piano-only, and duet. Piano score can be opened independently of mode. Existing public archive assets unchanged except new catalog link. No user attachment or PDF included."
   ],
   "verification": [
-    "357 main events over 70 performed measures; 30/72/144 BPM rendered end-to-end in WAV. Browser spot checks covered score, note stepping, small-bar navigation and media-following updates. Only eight release paths changed; existing score/audio files and attribution retained. Piatti: 902 attack groups checked, all 77 bar targets, written final B-flat3 and G4 preserved, WAV at 30/72/120 BPM. Provisional E-sharp reading of one degraded accidental; expressive and lower-voice sustain notation not included."
+    "Shared 268 quarter-note timeline, 67 navigable bars, actual pitched source transcription; WAV generated through every segment at 30/72/144 BPM in each of three modes. Browser preview checked first cello rest, F-sharp 4 entry, final D5, both score views, accompaniment routing and automatic continuation beyond one audio segment."
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -197,11 +197,21 @@
     "fullscore/full-app.mjs": "108d693bd8be4a85db0d0cb177b68bee35f2e3a84215e0937be57ee7b399a9f8",
     "fullscore/grace-identity.mjs": "a65f3d70823464265fe4f5c250a46622e41a0d24184ac4a46322e5b94ab406b6",
     "fullscore/handframe.mjs": "2a40a562f794df37a7c7ccd6990704a2ae911502692df314a1af26b837b2a18f",
-    "fullscore/index.html": "c6514770538e6343451361c7077f8bac5dc907dad2bc908547a3f526d69cf135",
+    "fullscore/index.html": "9b1a4ac5bb3a10b920901dcb62a39f899b36ba66fd957ec7ba6999752e723bc9",
     "fullscore/ktv-renderer.mjs": "a5a33b73a0f5d54d760b790b2c1002285982893c2e1620be1c0d07c7931c0d54",
     "fullscore/ktv.css": "dfaeeb2276266ad41f0c1c1f2f6591b6ce2e42808d1d831c695796903b103f5e",
     "fullscore/manual-return.mjs": "c8380c43b0873e6245ab400586aacade73228c92555b26395b7ef693b11f4349",
     "fullscore/measure-navigation.mjs": "252c5bda45ecd258c961bffcb6af3c225bcd3fa72d9b1be950431332fa6d0ae3",
+    "fullscore/mendelssohn-op109/cello.musicxml": "250557fd0c6c0f6f701eb3435dc817e7ac68edac62ab3cf6c7eee44cc8e0f61c",
+    "fullscore/mendelssohn-op109/index.html": "f9270c47663a7590d115ddef3feae59682a350359ad200612b1856ca9fe63dc2",
+    "fullscore/mendelssohn-op109/mix-wav.mjs": "2162153907e79f06f77b2c33ffa7e2987a214afb3c0b21e7c04f299079c4706d",
+    "fullscore/mendelssohn-op109/mix.mjs": "d04d9953db60dff50779a22b02d5d59626c7c11dc1b6d94c9115d615adbd32c7",
+    "fullscore/mendelssohn-op109/piano.musicxml": "7e2dbfbcc5c69d14c0ebd208d652ac4ea6716d85400ea76375b54f7fc7beaed9",
+    "fullscore/mendelssohn-op109/player.mjs": "8bc198f6f6fce03b789aa0c7a89b2e48614e4c8eb5e74db6addefd8e9c01c155",
+    "fullscore/mendelssohn-op109/practice.json": "153af6acb6c525f61a6852be6ca31c0c71cb1bf30d985c1828890e7b65fdbf67",
+    "fullscore/mendelssohn-op109/prepare-wav.mjs": "ce93106e748b62c0a146d340cc8500c5872006cdb8997f3ce8a1435f93156a40",
+    "fullscore/mendelssohn-op109/transport.mjs": "361e32e77b99ea6516453de3f75b71da81dc84e518608ed4cfde813d4cde1d36",
+    "fullscore/mendelssohn-op109/wav-worker.mjs": "a4af1906c3f69dedb8482b02643a8693d18cf922f8a4280459d609213eb07848",
     "fullscore/musicxml-events.mjs": "e12417d46bb00bb81a3086440c7d5f0c75ea55645df76720bc58297e26ebb619",
     "fullscore/note-labels.mjs": "84282e20412901674dae89b2971ac7fec217ba59e3281f42e6c2aa71b92a9a40",
     "fullscore/piatti/index.html": "b6c629d634abf711741c91d03083732efc8001274f0f462aef6c2222260cf145",
