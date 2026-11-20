@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "version": "v37-vocalise-principal-practice",
+  "version": "v38-public-piatti1-vocalise",
   "baseline_commit": "1bd54ecf6339af71965787ff5ecbb8204d5c30c5",
-  "archive_sha256": "45c90f278a5fafaf31d82c48f14858e82bbf55060b0255a6392ddf5601d8bad4",
-  "file_count": 295,
+  "archive_sha256": "69fdfd3193406c9ddde13702d14316052ff07a4b06ca2e8b6a4494dc0534b6eb",
+  "file_count": 296,
   "changes": [
-    "Remove the legacy standalone BWV1008 Prelude from the active catalog; keep all seven official Suite 2 entries. Retire the PDF-only Piatti entry while interactive transcription is under review. Default Vocalise to main melody with rests, ties and repeats intact; optional decorated playback remains."
+    "Remove the legacy standalone BWV1008 Prelude from the active catalog; keep all seven official Suite 2 entries. Replace the Piatti PDF-only entry with the first complete 77-bar attack practice edition from the public-domain Simrock engraving, p.2\u20133. Default Vocalise to main melody with rests, ties and repeats intact; optional decorated playback remains."
   ],
   "verification": [
-    "357 main events over 70 performed measures; 30/72/144 BPM rendered end-to-end in WAV. Browser spot checks covered score, note stepping, small-bar navigation and media-following updates. Only seven release paths changed; existing score/audio files and attribution retained."
+    "357 main events over 70 performed measures; 30/72/144 BPM rendered end-to-end in WAV. Browser spot checks covered score, note stepping, small-bar navigation and media-following updates. Only eight release paths changed; existing score/audio files and attribution retained. Piatti: 902 attack groups checked, all 77 bar targets, written final B-flat3 and G4 preserved, WAV at 30/72/120 BPM. Provisional E-sharp reading of one degraded accidental; expressive and lower-voice sustain notation not included."
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -25,6 +25,7 @@
     "fullscore/data/bwv1007-prelude-complete.musicxml": "86d4daf956cf32fada269becffb494cbd3d57c0f06ee94119dc69a7fff0558a3",
     "fullscore/data/bwv1008-prelude-complete.json": "8a96642c723c79e187efce6e3ed5ba96e41e8e2bd7d801f516ad18c6d7157a48",
     "fullscore/data/bwv1008-prelude-complete.musicxml": "b4cbd3d35616da8570467f6325618b97428cdfce7df629dd4f95c819f5c25c12",
+    "fullscore/data/piatti/no1.musicxml": "ebfdf18c8240381658f44cd0190c5186470490f23de05284f2f98e7ef3ce18ea",
     "fullscore/data/suite1courante/README.md": "8e54663f0a1ac85781428f9c59c2bea086a8f13cabd9216cbd57b71c759a9ec0",
     "fullscore/data/suite1courante/display.musicxml": "c533d31de587804692561edd164a8603a2b6ba309e5c785fe53d714e05955bc1",
     "fullscore/data/suite1courante/practice-plan.json": "9b93ff45a503f453404cea4eb548064ed999484d0fa093dc836c1a2076d54b5f",
@@ -193,17 +194,17 @@
     "fullscore/data/suite6sarabande/source.xml": "4b669dd59c9c0cb7f07a6dfaf4d02b48a62e57c9ce7b0fbb6bd196d039a879a7",
     "fullscore/fingering.mjs": "c26677218af08c987115ec7eec5ac7902f8d57087149788698efc25de35c4bef",
     "fullscore/four-string-study.mjs": "0de73302716acd460dff099f7b1a935f9ebeac94bd8f5143cf7c6868ddcc0557",
-    "fullscore/full-app.mjs": "977199ddd585d3e22f00abf8900f05a88af3c882898ba9bb2f76312eb781ad81",
+    "fullscore/full-app.mjs": "108d693bd8be4a85db0d0cb177b68bee35f2e3a84215e0937be57ee7b399a9f8",
     "fullscore/grace-identity.mjs": "a65f3d70823464265fe4f5c250a46622e41a0d24184ac4a46322e5b94ab406b6",
     "fullscore/handframe.mjs": "2a40a562f794df37a7c7ccd6990704a2ae911502692df314a1af26b837b2a18f",
-    "fullscore/index.html": "2b62e5bf490f0c2f30229ab829171c819ef7910c260b11148e61e93e339dca8e",
+    "fullscore/index.html": "c6514770538e6343451361c7077f8bac5dc907dad2bc908547a3f526d69cf135",
     "fullscore/ktv-renderer.mjs": "a5a33b73a0f5d54d760b790b2c1002285982893c2e1620be1c0d07c7931c0d54",
     "fullscore/ktv.css": "dfaeeb2276266ad41f0c1c1f2f6591b6ce2e42808d1d831c695796903b103f5e",
     "fullscore/manual-return.mjs": "c8380c43b0873e6245ab400586aacade73228c92555b26395b7ef693b11f4349",
     "fullscore/measure-navigation.mjs": "252c5bda45ecd258c961bffcb6af3c225bcd3fa72d9b1be950431332fa6d0ae3",
     "fullscore/musicxml-events.mjs": "e12417d46bb00bb81a3086440c7d5f0c75ea55645df76720bc58297e26ebb619",
     "fullscore/note-labels.mjs": "84282e20412901674dae89b2971ac7fec217ba59e3281f42e6c2aa71b92a9a40",
-    "fullscore/piatti/index.html": "9bbdb970054b806299a0fe0df7d37d73e74a62e1fc02e55b9d910d347f806b48",
+    "fullscore/piatti/index.html": "b6c629d634abf711741c91d03083732efc8001274f0f462aef6c2222260cf145",
     "fullscore/pinned-grace-parser.mjs": "ace5f6f5147056d1293de463f58d339437b3a482178267ee9178421881d0e509",
     "fullscore/polyphonic-audio.mjs": "e37422fb7e8da8b7167a65f68b54aae8983e812857055b6e28d562046289d067",
     "fullscore/score-lab/app.mjs": "b4a42e4bca0f52a424c980a2fcb9069f6950848b6c0462b0e50a0137d461aa16",
