@@ -1,16 +1,14 @@
 {
   "schema_version": 1,
-  "version": "v35-manual-return-1",
-  "baseline_commit": "3fb6b50d9efeddc9ec50e4d5e10c63d88d7b9ac1",
-  "archive_sha256": "6d83094f5bc296224b00e2b19ce2b72d172dfb7c0c64a19f950bf2d437679e87",
-  "file_count": 294,
+  "version": "v36-catalog-fingerboard-piatti",
+  "baseline_commit": "e2cf7aa570eaeaf52f9c3bf8c3a6cb0af0943ee5",
+  "archive_sha256": "436185419c9c5aa284d212e58d794ec23cf9efd7e31644294d245ec855d46d79",
+  "file_count": 295,
   "changes": [
-    "Manual same-suite II to I button at final expanded measure; no autoplay; existing score header row; source scores unchanged"
+    "Use official Suite 1 Prelude as default; remove its duplicate early catalog entry. Default Suite 6 Prelude board highlights only current sounding pitch(es). Add Piatti Op. 25 public-domain sheet-music collection, PDF reading only."
   ],
   "verification": [
-    "42 module assertions passed",
-    "Independent six-suite UI and code review passed",
-    "Controlled slow-network and real mobile device unverified"
+    "All 104 Suite 6 Prelude measures validated against unchanged score and audio plan; 4 exact release paths differ."
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -194,16 +192,18 @@
     "fullscore/data/suite6sarabande/practice-plan.json": "fb556796c53d3bb5c4903c61957c94141b268e00da261d9a5de267adeacf6223",
     "fullscore/data/suite6sarabande/source.xml": "4b669dd59c9c0cb7f07a6dfaf4d02b48a62e57c9ce7b0fbb6bd196d039a879a7",
     "fullscore/fingering.mjs": "c26677218af08c987115ec7eec5ac7902f8d57087149788698efc25de35c4bef",
-    "fullscore/four-string-study.mjs": "68527902a0f763c5dd6b525f1c0113800d93fabd878b39e218cbccf722a83968",
-    "fullscore/full-app.mjs": "afeeed47d02b612c3d7edcb1004e5cae690857c757e7e0459b87ea8867496d62",
+    "fullscore/four-string-study.mjs": "0de73302716acd460dff099f7b1a935f9ebeac94bd8f5143cf7c6868ddcc0557",
+    "fullscore/full-app.mjs": "a7dee84a89a2ae87a69ab284c881b45ac5ef43b8b3ef131ec26028bdfa82fc80",
     "fullscore/grace-identity.mjs": "a65f3d70823464265fe4f5c250a46622e41a0d24184ac4a46322e5b94ab406b6",
     "fullscore/handframe.mjs": "2a40a562f794df37a7c7ccd6990704a2ae911502692df314a1af26b837b2a18f",
-    "fullscore/index.html": "ab23ece71b38f83f1d848b96ab19895268884f73bed510d84ad024fc78945834",
+    "fullscore/index.html": "1edbad0f2d74ab7edc2e50e3436b5361a02055c9c5c7d5c7e4927a19fa2ca7a7",
     "fullscore/ktv-renderer.mjs": "a5a33b73a0f5d54d760b790b2c1002285982893c2e1620be1c0d07c7931c0d54",
     "fullscore/ktv.css": "dfaeeb2276266ad41f0c1c1f2f6591b6ce2e42808d1d831c695796903b103f5e",
+    "fullscore/manual-return.mjs": "c8380c43b0873e6245ab400586aacade73228c92555b26395b7ef693b11f4349",
     "fullscore/measure-navigation.mjs": "252c5bda45ecd258c961bffcb6af3c225bcd3fa72d9b1be950431332fa6d0ae3",
     "fullscore/musicxml-events.mjs": "e12417d46bb00bb81a3086440c7d5f0c75ea55645df76720bc58297e26ebb619",
     "fullscore/note-labels.mjs": "84282e20412901674dae89b2971ac7fec217ba59e3281f42e6c2aa71b92a9a40",
+    "fullscore/piatti/index.html": "cd0df322025c47baa5e355f1b1e9148d71e5432068ebbfe489a94c52412b47e8",
     "fullscore/pinned-grace-parser.mjs": "ace5f6f5147056d1293de463f58d339437b3a482178267ee9178421881d0e509",
     "fullscore/polyphonic-audio.mjs": "e37422fb7e8da8b7167a65f68b54aae8983e812857055b6e28d562046289d067",
     "fullscore/score-lab/app.mjs": "b4a42e4bca0f52a424c980a2fcb9069f6950848b6c0462b0e50a0137d461aa16",
@@ -305,7 +305,6 @@
     "suite5-reader/index.html": "386c169bfacd1c67f5ae5725cc4831970e5a667ad4258dcdb26d95b90e5b87da",
     "suite5-reader/manifest.json": "d1423c46c31563ff5590019f803fb53f78efc153f59079d1197ed02defb2aee6",
     "suite5-reader/reader.mjs": "fd2164a1ef143683c1c31d930a917b547e324efe1eab4a22de3b348ce5e6a97d",
-    "suite5-reader/vendor/opensheetmusicdisplay-2.3.0.min.js": "20cf7cd331637af5ef5786cfdfb67e106a181ba5c6a5c4c86adee4b96a7c6639",
-    "fullscore/manual-return.mjs": "c8380c43b0873e6245ab400586aacade73228c92555b26395b7ef693b11f4349"
+    "suite5-reader/vendor/opensheetmusicdisplay-2.3.0.min.js": "20cf7cd331637af5ef5786cfdfb67e106a181ba5c6a5c4c86adee4b96a7c6639"
   }
 }
