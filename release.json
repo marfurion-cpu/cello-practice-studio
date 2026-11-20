@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "version": "v37-catalog-cleanup",
+  "version": "v37-vocalise-principal-practice",
   "baseline_commit": "1bd54ecf6339af71965787ff5ecbb8204d5c30c5",
-  "archive_sha256": "73368323ee82e4d8cb83e9970a1a9923b86d7cc67d62326ce79e1f860df1424c",
+  "archive_sha256": "45c90f278a5fafaf31d82c48f14858e82bbf55060b0255a6392ddf5601d8bad4",
   "file_count": 295,
   "changes": [
-    "Remove the legacy standalone BWV1008 Prelude from the active catalog; keep all seven official Suite 2 entries. Retire the PDF-only Piatti entry while interactive transcription is under review."
+    "Remove the legacy standalone BWV1008 Prelude from the active catalog; keep all seven official Suite 2 entries. Retire the PDF-only Piatti entry while interactive transcription is under review. Default Vocalise to main melody with rests, ties and repeats intact; optional decorated playback remains."
   ],
   "verification": [
-    "Only three release paths changed; existing score/audio files and attribution retained."
+    "357 main events over 70 performed measures; 30/72/144 BPM rendered end-to-end in WAV. Browser spot checks covered score, note stepping, small-bar navigation and media-following updates. Only seven release paths changed; existing score/audio files and attribution retained."
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -196,7 +196,7 @@
     "fullscore/full-app.mjs": "977199ddd585d3e22f00abf8900f05a88af3c882898ba9bb2f76312eb781ad81",
     "fullscore/grace-identity.mjs": "a65f3d70823464265fe4f5c250a46622e41a0d24184ac4a46322e5b94ab406b6",
     "fullscore/handframe.mjs": "2a40a562f794df37a7c7ccd6990704a2ae911502692df314a1af26b837b2a18f",
-    "fullscore/index.html": "61c5f5fcd63b038186db386e0fc3c7214d7763852e2c3cb78bd8c062692bffc8",
+    "fullscore/index.html": "2b62e5bf490f0c2f30229ab829171c819ef7910c260b11148e61e93e339dca8e",
     "fullscore/ktv-renderer.mjs": "a5a33b73a0f5d54d760b790b2c1002285982893c2e1620be1c0d07c7931c0d54",
     "fullscore/ktv.css": "dfaeeb2276266ad41f0c1c1f2f6591b6ce2e42808d1d831c695796903b103f5e",
     "fullscore/manual-return.mjs": "c8380c43b0873e6245ab400586aacade73228c92555b26395b7ef693b11f4349",
@@ -279,12 +279,12 @@
     "fullscore/vocalise/base-parser.mjs": "e12417d46bb00bb81a3086440c7d5f0c75ea55645df76720bc58297e26ebb619",
     "fullscore/vocalise/bowing-advice.mjs": "7748c08b740a0d42655c48df9435cefdf366eeeca38606068e8ff3ab452e8804",
     "fullscore/vocalise/high-position.mjs": "f7e5aa96eb70460492eb85bd389149e5e5a29c7b50dc0ef29a9000e8ccc859cc",
-    "fullscore/vocalise/index.html": "49338c024823ebcbd3f2ea9e5c328ab75962a6feab575eae42b787b2aefb1341",
+    "fullscore/vocalise/index.html": "5c7cb8f9bc23ddd7fd4a3b05d17e4d7cb7c8b1b3fd1ee1c7f0a5c20052e7a8d5",
     "fullscore/vocalise/inspect.mjs": "94f4b6cbe942d12cc679505538be5cba9eebaa6c202a68e6c70bb30552265da5",
     "fullscore/vocalise/lifecycle-guard.mjs": "46c400cf1e8de597425cb172f9b1e75be7928c55e54aec237c9194e333800852",
-    "fullscore/vocalise/playback.mjs": "6819526d452275b96fbfb73470e51616ca2315436d75bfcdcf48ffbeab7a7767",
-    "fullscore/vocalise/player-model.mjs": "d1e5cd0f74305cedac0c685a8076a63fb9f9bdda6877d00b313e64ad6626ca2e",
-    "fullscore/vocalise/player.mjs": "fb858df827fdaad5ca5643fff4636400448667133282ebd6234e9647480b7dfd",
+    "fullscore/vocalise/playback.mjs": "3584f91ff5a803219b5582de928d3d8ec64ff01220f6c022134017320d462ac1",
+    "fullscore/vocalise/player-model.mjs": "ebdf0e3221d4b7077da77a564743d23131c0edc41a882e1081e8d117bd97e10e",
+    "fullscore/vocalise/player.mjs": "50e0df462b7a1d55c6ad117899d9d22cdcc674f3086b3fb1892f3495ef129a20",
     "fullscore/vocalise/score-only.html": "8ebe400d1e160e5df758ce83879b7f4e44ee416087410604f3b3db40fd9b8756",
     "fullscore/vocalise/score-r3.musicxml": "dd1c86660fe7398362ef0356bce45ca3f88bb6d7ebc932458b45b7ae7f97d602",
     "fullscore/vocalise/score-r4.musicxml": "a3cc55e5b6fea32ebc641d09ae2b98bfe6af923be57f2e9a069d9356cedede1a",
