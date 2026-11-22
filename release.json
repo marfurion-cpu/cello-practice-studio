@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
-  "version": "v39-mendelssohn-op109-duet",
-  "baseline_commit": "748e473370a691d8e3c8b294a921f0564bf7e5af",
-  "archive_sha256": "6a25e74eea5d5616a241d388cecf58c912d9c35a3cb2273b3c1ee211b05e45ee",
-  "file_count": 306,
+  "version": "mendelssohn-native-mobile-candidate-20261121",
+  "baseline_commit": "ed18474e4228d0a107f0f48e077db0413ff3a916",
+  "archive_sha256": "41d273fa668dd228d4d6bf625245ac5423b8c98ea84067dce2f938d4e27293a1",
+  "file_count": 311,
   "changes": [
-    "Add Mendelssohn Op.109 practice using Peters 6960 public-domain scores: 67 measured bars, cello-only, piano-only, and duet. Piano score can be opened independently of mode. Existing public archive assets unchanged except new catalog link. No user attachment or PDF included."
+    "Mendelssohn Op.109 only: native MP3 per mode, compact dual staves, explicit finger and position labels; no score and practice data changes."
   ],
   "verification": [
-    "Shared 268 quarter-note timeline, 67 navigable bars, actual pitched source transcription; WAV generated through every segment at 30/72/144 BPM in each of three modes. Browser preview checked first cello rest, F-sharp 4 entry, final D5, both score views, accompaniment routing and automatic continuation beyond one audio segment."
+    "Local release validator, real MP3 decode, Chrome 320/390 layout, seek/switch/in-place tempo/natural end tested.",
+    "Not tested: iPhone/WeChat sound or hosted range."
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -202,12 +203,17 @@
     "fullscore/ktv.css": "dfaeeb2276266ad41f0c1c1f2f6591b6ce2e42808d1d831c695796903b103f5e",
     "fullscore/manual-return.mjs": "c8380c43b0873e6245ab400586aacade73228c92555b26395b7ef693b11f4349",
     "fullscore/measure-navigation.mjs": "252c5bda45ecd258c961bffcb6af3c225bcd3fa72d9b1be950431332fa6d0ae3",
+    "fullscore/mendelssohn-op109/audio/cello.mp3": "50995f626623c3f3a17122f5ba93d0f47420af272699670eeff7cc9f807026c3",
+    "fullscore/mendelssohn-op109/audio/duet.mp3": "705a7b713263f39a3f4a93da4a013c0f65737c9bab3e2040a1f68f9c1d229a4c",
+    "fullscore/mendelssohn-op109/audio/piano.mp3": "544098ba0149ead8ab81ce415937a8470b36265b19ef6e88624b2aa3897ac3a0",
     "fullscore/mendelssohn-op109/cello.musicxml": "250557fd0c6c0f6f701eb3435dc817e7ac68edac62ab3cf6c7eee44cc8e0f61c",
-    "fullscore/mendelssohn-op109/index.html": "f9270c47663a7590d115ddef3feae59682a350359ad200612b1856ca9fe63dc2",
+    "fullscore/mendelssohn-op109/index.html": "1cae2603c4552dd8690325343bd49dfd562e3d3f13cbb7a89b290b90c360e5ec",
     "fullscore/mendelssohn-op109/mix-wav.mjs": "2162153907e79f06f77b2c33ffa7e2987a214afb3c0b21e7c04f299079c4706d",
     "fullscore/mendelssohn-op109/mix.mjs": "d04d9953db60dff50779a22b02d5d59626c7c11dc1b6d94c9115d615adbd32c7",
+    "fullscore/mendelssohn-op109/mobile-board.mjs": "d181b7f470105272fb7441465b2859f8f96d6978504420cc2f4ea96ae800cf3d",
+    "fullscore/mendelssohn-op109/native-media.mjs": "e4648d7e56c6843a4194f81097bcd4a0d3d83400d442a977ff9581099206fa74",
     "fullscore/mendelssohn-op109/piano.musicxml": "7e2dbfbcc5c69d14c0ebd208d652ac4ea6716d85400ea76375b54f7fc7beaed9",
-    "fullscore/mendelssohn-op109/player.mjs": "8bc198f6f6fce03b789aa0c7a89b2e48614e4c8eb5e74db6addefd8e9c01c155",
+    "fullscore/mendelssohn-op109/player.mjs": "0b18f5a340e4b0af5e997513fb6f617f6000cbcf95f0ce758a66ea19304159bc",
     "fullscore/mendelssohn-op109/practice.json": "153af6acb6c525f61a6852be6ca31c0c71cb1bf30d985c1828890e7b65fdbf67",
     "fullscore/mendelssohn-op109/prepare-wav.mjs": "ce93106e748b62c0a146d340cc8500c5872006cdb8997f3ce8a1435f93156a40",
     "fullscore/mendelssohn-op109/transport.mjs": "361e32e77b99ea6516453de3f75b71da81dc84e518608ed4cfde813d4cde1d36",
