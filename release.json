@@ -1,16 +1,9 @@
 {
   "schema_version": 1,
-  "version": "mendelssohn-native-mobile-candidate-20261121",
-  "baseline_commit": "ed18474e4228d0a107f0f48e077db0413ff3a916",
-  "archive_sha256": "41d273fa668dd228d4d6bf625245ac5423b8c98ea84067dce2f938d4e27293a1",
-  "file_count": 311,
-  "changes": [
-    "Mendelssohn Op.109 only: native MP3 per mode, compact dual staves, explicit finger and position labels; no score and practice data changes."
-  ],
-  "verification": [
-    "Local release validator, real MP3 decode, Chrome 320/390 layout, seek/switch/in-place tempo/natural end tested.",
-    "Not tested: iPhone/WeChat sound or hosted range."
-  ],
+  "version": "stage1-plus-stage2-local-review-candidate",
+  "baseline_commit": "c348e91dea30332ed6eda22aee28b30a75b0a547",
+  "archive_sha256": "9a35ef42aae314e0f514ecb7c824a990f7ab307dc129c0d20c4a08ce80d272a8",
+  "file_count": 314,
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "README.md": "fe85f482b68b32bbfeee32f912597e7bafe1fec10e850dfc3ffdb05ebbe4634e",
@@ -193,12 +186,12 @@
     "fullscore/data/suite6sarabande/display.musicxml": "f90ac7450588db2c4a9ef17028d501efc2a47c9e82b2ff83d0414405cb8dff8f",
     "fullscore/data/suite6sarabande/practice-plan.json": "fb556796c53d3bb5c4903c61957c94141b268e00da261d9a5de267adeacf6223",
     "fullscore/data/suite6sarabande/source.xml": "4b669dd59c9c0cb7f07a6dfaf4d02b48a62e57c9ce7b0fbb6bd196d039a879a7",
-    "fullscore/fingering.mjs": "c26677218af08c987115ec7eec5ac7902f8d57087149788698efc25de35c4bef",
-    "fullscore/four-string-study.mjs": "0de73302716acd460dff099f7b1a935f9ebeac94bd8f5143cf7c6868ddcc0557",
-    "fullscore/full-app.mjs": "108d693bd8be4a85db0d0cb177b68bee35f2e3a84215e0937be57ee7b399a9f8",
+    "fullscore/fingering.mjs": "815808d0e414d368525bf4bee5f3e46cafe9871fcc800da6964c235e7e138117",
+    "fullscore/four-string-study.mjs": "99f0abb45fe1655d3bb464c857783f3c1588f362af33e7e3d0d68af878385f9c",
+    "fullscore/full-app.mjs": "5d08008ce47904f1d53ce20b53d012664153f5567d75b6be5fb14783b97ca395",
     "fullscore/grace-identity.mjs": "a65f3d70823464265fe4f5c250a46622e41a0d24184ac4a46322e5b94ab406b6",
-    "fullscore/handframe.mjs": "2a40a562f794df37a7c7ccd6990704a2ae911502692df314a1af26b837b2a18f",
-    "fullscore/index.html": "9b1a4ac5bb3a10b920901dcb62a39f899b36ba66fd957ec7ba6999752e723bc9",
+    "fullscore/handframe.mjs": "19995b026d8efd2775aff81321650a40e561708d2fcc83874e9b1f4a1300ea07",
+    "fullscore/index.html": "372bcedc3c3930a672220600596bbec200619b5794a99a2f1f098e24e857f9cd",
     "fullscore/ktv-renderer.mjs": "a5a33b73a0f5d54d760b790b2c1002285982893c2e1620be1c0d07c7931c0d54",
     "fullscore/ktv.css": "dfaeeb2276266ad41f0c1c1f2f6591b6ce2e42808d1d831c695796903b103f5e",
     "fullscore/manual-return.mjs": "c8380c43b0873e6245ab400586aacade73228c92555b26395b7ef693b11f4349",
@@ -207,10 +200,10 @@
     "fullscore/mendelssohn-op109/audio/duet.mp3": "705a7b713263f39a3f4a93da4a013c0f65737c9bab3e2040a1f68f9c1d229a4c",
     "fullscore/mendelssohn-op109/audio/piano.mp3": "544098ba0149ead8ab81ce415937a8470b36265b19ef6e88624b2aa3897ac3a0",
     "fullscore/mendelssohn-op109/cello.musicxml": "250557fd0c6c0f6f701eb3435dc817e7ac68edac62ab3cf6c7eee44cc8e0f61c",
-    "fullscore/mendelssohn-op109/index.html": "1cae2603c4552dd8690325343bd49dfd562e3d3f13cbb7a89b290b90c360e5ec",
+    "fullscore/mendelssohn-op109/index.html": "f99e1f92bf61a7dde26e7815eaaa5765b930c4cdcf928f32fe8c186e4a53423a",
     "fullscore/mendelssohn-op109/mix-wav.mjs": "2162153907e79f06f77b2c33ffa7e2987a214afb3c0b21e7c04f299079c4706d",
     "fullscore/mendelssohn-op109/mix.mjs": "d04d9953db60dff50779a22b02d5d59626c7c11dc1b6d94c9115d615adbd32c7",
-    "fullscore/mendelssohn-op109/mobile-board.mjs": "d181b7f470105272fb7441465b2859f8f96d6978504420cc2f4ea96ae800cf3d",
+    "fullscore/mendelssohn-op109/mobile-board.mjs": "1280ba74d00e0cf85b6a291c3f7e8794f50dceb16b6c903d62ca86e437320cf1",
     "fullscore/mendelssohn-op109/native-media.mjs": "e4648d7e56c6843a4194f81097bcd4a0d3d83400d442a977ff9581099206fa74",
     "fullscore/mendelssohn-op109/piano.musicxml": "7e2dbfbcc5c69d14c0ebd208d652ac4ea6716d85400ea76375b54f7fc7beaed9",
     "fullscore/mendelssohn-op109/player.mjs": "0b18f5a340e4b0af5e997513fb6f617f6000cbcf95f0ce758a66ea19304159bc",
@@ -228,6 +221,8 @@
     "fullscore/score-lab/index.html": "890d3a3e9dfd91d4064daa769876a9a4faa0088ef5abe45d460df5f87be1962b",
     "fullscore/score-lab/mxl.mjs": "1619276d9e175027aa9df69f883c6eb7de8a6bcee78708da72f4bc899cc69e91",
     "fullscore/scores/vocalise-yokoyama-cello-E-CCBY3.pdf": "8b33d753aa37b65521fa7e070d6b410b87b294e2227a0c07af41ecb63f48a0bd",
+    "fullscore/shared-board.mjs": "01ddd3265be1f751ecd8f7dea6876b9e7b767bf12819c367ad5610170a9e3236",
+    "fullscore/shared-practice-dock.css": "65cbb1c51bb818126181dc48c1418121cee8e2d5da975db5fd93d609a359b9ab",
     "fullscore/style.css": "8c2050a543f3e67ca79e9e855191242301b9b4b7ee3396e767a278099526090c",
     "fullscore/suite5-adapter.mjs": "780e4ead59bc3f79bf0c191c08fa3e4f213276577f63af10c27eb726723af1d4",
     "fullscore/timeline.mjs": "67e9f72977256beeb7faa19bd0e1999295769c12a89d9720e5b4b69a00caf75b",
@@ -295,13 +290,14 @@
     "fullscore/vibrato.mjs": "37f7c6d55031ae97dbfabb9302dd6d742b970344b826d4a4970349fd0613ed21",
     "fullscore/vocalise/base-parser.mjs": "e12417d46bb00bb81a3086440c7d5f0c75ea55645df76720bc58297e26ebb619",
     "fullscore/vocalise/bowing-advice.mjs": "7748c08b740a0d42655c48df9435cefdf366eeeca38606068e8ff3ab452e8804",
-    "fullscore/vocalise/high-position.mjs": "f7e5aa96eb70460492eb85bd389149e5e5a29c7b50dc0ef29a9000e8ccc859cc",
-    "fullscore/vocalise/index.html": "5c7cb8f9bc23ddd7fd4a3b05d17e4d7cb7c8b1b3fd1ee1c7f0a5c20052e7a8d5",
+    "fullscore/vocalise/compact-score.mjs": "3a9d0b2c2ec0d5ffb1f4bc45d0703cfbcf370f19d93aa6b573f85091c7050e50",
+    "fullscore/vocalise/high-position.mjs": "7d630f154846caee58eda8a3d5093e13fe5a3473fce457524b159754c0a696cf",
+    "fullscore/vocalise/index.html": "948dcd0de10995ac0342bf8c2e84c634773456d690371a471e6c5957f401e12a",
     "fullscore/vocalise/inspect.mjs": "94f4b6cbe942d12cc679505538be5cba9eebaa6c202a68e6c70bb30552265da5",
     "fullscore/vocalise/lifecycle-guard.mjs": "46c400cf1e8de597425cb172f9b1e75be7928c55e54aec237c9194e333800852",
     "fullscore/vocalise/playback.mjs": "3584f91ff5a803219b5582de928d3d8ec64ff01220f6c022134017320d462ac1",
     "fullscore/vocalise/player-model.mjs": "ebdf0e3221d4b7077da77a564743d23131c0edc41a882e1081e8d117bd97e10e",
-    "fullscore/vocalise/player.mjs": "50e0df462b7a1d55c6ad117899d9d22cdcc674f3086b3fb1892f3495ef129a20",
+    "fullscore/vocalise/player.mjs": "553cd82d90b699fcd39951f9452533e713aeeb99aacb2b4bee4fc2d91d88e304",
     "fullscore/vocalise/score-only.html": "8ebe400d1e160e5df758ce83879b7f4e44ee416087410604f3b3db40fd9b8756",
     "fullscore/vocalise/score-r3.musicxml": "dd1c86660fe7398362ef0356bce45ca3f88bb6d7ebc932458b45b7ae7f97d602",
     "fullscore/vocalise/score-r4.musicxml": "a3cc55e5b6fea32ebc641d09ae2b98bfe6af923be57f2e9a069d9356cedede1a",
@@ -323,5 +319,8 @@
     "suite5-reader/manifest.json": "d1423c46c31563ff5590019f803fb53f78efc153f59079d1197ed02defb2aee6",
     "suite5-reader/reader.mjs": "fd2164a1ef143683c1c31d930a917b547e324efe1eab4a22de3b348ce5e6a97d",
     "suite5-reader/vendor/opensheetmusicdisplay-2.3.0.min.js": "20cf7cd331637af5ef5786cfdfb67e106a181ba5c6a5c4c86adee4b96a7c6639"
-  }
+  },
+  "changes": [
+    "Display-only; original score and media assets unchanged. This pack has not been published."
+  ]
 }
