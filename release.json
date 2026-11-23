@@ -1,13 +1,12 @@
 {
   "schema_version": 1,
-  "version": "native-bpm-dropdown-20261122",
-  "baseline_commit": "d4643a4ca1ea6cb7068db22c4d3b4ef0a686ed2f",
-  "baseline_archive_sha256": "9a35ef42aae314e0f514ecb7c824a990f7ab307dc129c0d20c4a08ce80d272a8",
-  "archive_sha256": "32b180d1e1df3bb6a89c4db979923c045070fb6b0249aeb395c6438fd62e16d4",
+  "version": "vocalise-duplicate-home-link-ea015-20261124",
+  "baseline_commit": "ea01519f45cdc90570cd0976f62863be18d4d89f",
+  "baseline_archive_sha256": "32b180d1e1df3bb6a89c4db979923c045070fb6b0249aeb395c6438fd62e16d4",
+  "archive_sha256": "04b35f1fa3cde1897e771c734b0b05319f062ef238ecd93991b35c11074e43b7",
   "file_count": 315,
   "changes": [
-    "Native speed dropdown, no numeric keyboard; maintains selected score default and existing playback position policies.",
-    "30\u2013160 BPM practice menu where supported; preserves pre-existing 144 BPM Op.109 native audio cap. No score or audio assets changed."
+    "Remove only the redundant top Vocalise link. Preserve the menu entry, original deep link, neighboring score-lab entry, mobile tempo menu and default score."
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -196,7 +195,7 @@
     "fullscore/full-app.mjs": "4b2727390e05fb17efb2e9df40f96680afd2dabbbe699b992404fcc9607b0551",
     "fullscore/grace-identity.mjs": "a65f3d70823464265fe4f5c250a46622e41a0d24184ac4a46322e5b94ab406b6",
     "fullscore/handframe.mjs": "19995b026d8efd2775aff81321650a40e561708d2fcc83874e9b1f4a1300ea07",
-    "fullscore/index.html": "4936663fd658dc73e7b2ba13eeac41447e8840368816c5e740fbf5ebda0564e2",
+    "fullscore/index.html": "2849c722dcb4e09d48f1c1c274966907e7251a3dddef74bf51df73cde76f7ab7",
     "fullscore/ktv-renderer.mjs": "a5a33b73a0f5d54d760b790b2c1002285982893c2e1620be1c0d07c7931c0d54",
     "fullscore/ktv.css": "dfaeeb2276266ad41f0c1c1f2f6591b6ce2e42808d1d831c695796903b103f5e",
     "fullscore/manual-return.mjs": "c8380c43b0873e6245ab400586aacade73228c92555b26395b7ef693b11f4349",
